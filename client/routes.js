@@ -1,3 +1,4 @@
 Router.route('/', function() {
-	this.render('header');
+	entries = Entries.find();
+	this.render('entriesList');
 });

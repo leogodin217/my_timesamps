@@ -1,0 +1,21 @@
+<template name="entriesList">
+  <body>
+  <h3>Entries: {{entries}}</h3>
+  <table id="entry-list" border="1px">
+  	<tr>
+  		<td>Group</td>
+  		<td>Value</td>
+  		<td>Notes</td>
+  		<td>Timestamp</td>
+  	</tr>
+  	{{#each entries}}
+  		<tr class="entry-item">
+	  		<td class='entry-group'>{{group}}</td>
+	  		<td class='entry-value'>{{value}}</td>
+	  		<td class='entry-notes'>{{notes}}</td>
+	  		<td class='entry-timestamp'>timestamp</td>
+  		</tr>
+  	{{/each}}
+  </table>
+  </body>
+</template>

@@ -8,3 +8,4 @@ meteor-platform
 iron:router
 velocity:html-reporter
 sanjo:jasmine
+accounts-password
